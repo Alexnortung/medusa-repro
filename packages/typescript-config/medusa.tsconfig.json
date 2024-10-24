@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "./base.tsconfig.json",
+  "compilerOptions": {
+    "target": "es2019",
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": false,
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+    "checkJs": false
+  },
+  "ts-node": {
+    "swc": true
+  },
+}
